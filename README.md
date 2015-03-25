@@ -1,29 +1,18 @@
-## Om-Semantic
+## Cljs-Sweetalert
 
-[Semantic UI](https://github.com/semantic-org/semantic-ui/) components built with [Om](https://github.com/omcljs/om)
+A minimal cljs-wrapper for [sweetalert](https://github.com/t4t5/sweetalert)
 
 Still very much in Alpha, use at own risk.
 
-Examples: [vikeri.github.io/om-semantic](http://vikeri.github.io/om-semantic/)
-
-## Available components
-
-- Dropdown `dropdown.cljs`
-
-## TODO
-
-- Make dropdown tabbable, and to be able to select with up/down keys
-
-
+Aiming to include sweetalert as CLJSJS dependency
 ## Try it out
 
 ```sh
-git clone https://github.com/vikeri/om-semantic.git
-cd om-semantic
-lein cljsbuild once dropdown
+git clone https://github.com/vikeri/cljs-sweetalert.git
+cd cljs-sweetalert
+lein cljsbuild once example
+open example/index.html
 ```
-
-Open `index.html` in folder `examples/dropdown`
 
 ## License
 
