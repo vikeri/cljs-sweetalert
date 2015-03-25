@@ -14,5 +14,3 @@
               (do
                 (swal/close)
                 (println "Well done"))))
-
-;(js/setTimeout #(swal/show-input-error "") 3000)
